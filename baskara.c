@@ -15,7 +15,7 @@ int main()
 
     delta = b*b - 4 * a * c;
 
-    if (delta < 0 && a = 0) {
+    if (delta < 0 || a == 0) {
         printf("Esta equacao nao possui raizes reais");
     }
     else {
