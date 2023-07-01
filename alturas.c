@@ -53,7 +53,7 @@ int main()
 
     porcent = (double) menor * 100 / N;
 
-    printf("\nPessoas com menos de 16 anos: %.1lf\n", porcent);
+    printf("\nPessoas com menos de 16 anos: %.1lf%%\n", porcent);
 
     for (i = 0; i < N; i++) {
         if (idade[i] < 16) {
