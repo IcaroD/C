@@ -14,6 +14,7 @@ int main()
     double soma[M];
 
     for (i = 0; i < M; i++) {
+        soma[i] = 0;
         printf("Digite os elementos da %da. linha:\n", i+1);
         for (j = 0; j < N; j++) {
             scanf("%lf", &mat[i][j]);
